@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/multi-lang/index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;AAAA,kDAAgC;AAChC,qDAAmC;AACnC,oDAAkC;AAClC,mDAAiC","sourcesContent":["export * from './get-text.util';\r\nexport * from './messages.storage';\r\nexport * from './title.decorator';\r\nexport * from './titles.storage';\r\n"]}
