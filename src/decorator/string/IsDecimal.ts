@@ -1,7 +1,7 @@
 import { ValidationOptions } from '../ValidationOptions';
 import { buildMessage, ValidateBy } from '../common/ValidateBy';
 import isDecimalValidator from 'validator/lib/isDecimal';
-import ValidatorJS from 'validator';
+import * as ValidatorJS from 'validator';
 import { getText } from '../../multi-lang';
 
 export const IS_DECIMAL = 'isDecimal';

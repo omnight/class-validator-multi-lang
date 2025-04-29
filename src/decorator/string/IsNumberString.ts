@@ -1,7 +1,7 @@
 import { ValidationOptions } from '../ValidationOptions';
 import { buildMessage, ValidateBy } from '../common/ValidateBy';
 import isNumericValidator from 'validator/lib/isNumeric';
-import ValidatorJS from 'validator';
+import * as ValidatorJS from 'validator';
 import { getText } from '../../multi-lang';
 
 export const IS_NUMBER_STRING = 'isNumberString';
